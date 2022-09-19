@@ -67,7 +67,7 @@ const columns = [
 	}
 ]
 
-const text = ref<string>("https://www.youtube.com/watch?v=Ha7T8UYSgIU&t=23s")
+const text = ref<string>("https://www.youtube.com/watch?v=TasYtAcUcHA")
 const size = ref<string | number>(160)
 
 const data = computed((): Record<string, any>[] => {
