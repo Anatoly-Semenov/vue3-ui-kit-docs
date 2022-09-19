@@ -28,7 +28,10 @@
     "typescript": "~4.5.5",
     "@babel/core": "^7.12.16",
     "@vue/cli-plugin-babel": "~5.0.0",
-    "@vue/cli-service": "~5.0.0"
+    "@vue/cli-service": "~5.0.0",
+    "stylus-loader": "^6.1.0",
+    "vue-loader": "^17.0.0",
+    "vue-svg-loader": "^0.17.0-beta.2"
   },
   "browserslist": [
     "> 1%",
