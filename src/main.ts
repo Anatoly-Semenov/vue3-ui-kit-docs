@@ -7,6 +7,9 @@ import AntDesign from "ant-design-vue"
 import componentCode from "@/components/component-code.vue"
 import propsColumns from "@/components/props-columns.vue"
 
+// Directives
+import VueClickAway from "vue3-click-away"
+
 // Css
 import "ant-design-vue/dist/antd.css"
 import "vue-code-highlight/themes/duotone-sea.css"
@@ -18,4 +21,5 @@ createApp(App)
 	.use(AntDesign)
 	.component("component-code", componentCode)
 	.component("props-columns", propsColumns)
+	.use(VueClickAway)
 	.mount("#app")
