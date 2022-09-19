@@ -40,11 +40,11 @@ const dataProp = ref<UiContacts.Data>([
 		name: "Username"
 	},
 	{
-		contact: "+79514703322",
+		contact: "+79999999999",
 		name: "Mobile phone"
 	},
 	{
-		contact: "+79514703321",
+		contact: "+79999999999",
 		name: "Direct phone"
 	},
 	{
