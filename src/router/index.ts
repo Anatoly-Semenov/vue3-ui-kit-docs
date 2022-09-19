@@ -35,6 +35,17 @@ const routes: Array<RouteRecordRaw> = [
 		path: "/ui-button",
 		name: "ui-button",
 		component: () => import("../pages/components/button.vue")
+	},
+	{
+		path: "/ui-button-icon",
+		name: "ui-button-icon",
+		component: () => import("../pages/components/button-icon.vue")
+	},
+	{
+		path: "/ui-icon",
+		name: "ui-icon",
+		component: () => import("../pages/components/icon.vue")
+	},
 	}
 ]
 
