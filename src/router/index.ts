@@ -30,6 +30,11 @@ const routes: Array<RouteRecordRaw> = [
 		path: "/components",
 		name: "components",
 		component: () => import("../pages/components/index.vue")
+	},
+	{
+		path: "/ui-button",
+		name: "ui-button",
+		component: () => import("../pages/components/button.vue")
 	}
 ]
 
