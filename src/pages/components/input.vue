@@ -1,7 +1,7 @@
 <template>
 	<div class="doc">
 		<p class="doc__title">Ui-input</p>
-		<div class="doc__component">
+		<div class="doc__component _dark">
 			<ui-input
 				:size="size"
 				:type="type"
@@ -119,7 +119,6 @@ import { Docs, UiInput } from "@/types"
 
 // Hooks
 import useDocs from "@/hooks/docs"
-import PropsColumns from "@/components/props-columns.vue"
 const { columns } = useDocs()
 
 const slot = ref<string>("")
