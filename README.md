@@ -1,4 +1,6 @@
-# ui-kit-docs
+# UI-kit-docs
+
+![image info](./src/assets/img/readme-img.png)
 
 ## Project setup
 ```
